@@ -1,0 +1,943 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"steplimi",
+				"stepLimitCW〔argument〕"
+			],
+			[
+				"STEPER",
+				"STEPPERHARDLIMITCW"
+			],
+			[
+				"STEPP",
+				"STEPPERDIGITALFILTERSTEPS"
+			],
+			[
+				"STEPPER",
+				"STEPPERDELAYUS"
+			],
+			[
+				"stn",
+				"standardWait"
+			],
+			[
+				"ste",
+				"stepDealy〔argument〕"
+			],
+			[
+				"sig",
+				"signalName"
+			],
+			[
+				"gainadjus",
+				"GAINADJUSTRESULTS"
+			],
+			[
+				"dec",
+				"decreaseOccured"
+			],
+			[
+				"incre",
+				"increaseOccured"
+			],
+			[
+				"Daq",
+				"DATAACQSTATUS"
+			],
+			[
+				"daqa",
+				"DATAACQSTATUS"
+			],
+			[
+				"SSW",
+				"SSWSTATUS"
+			],
+			[
+				"Current",
+				"CURRENTFREQ"
+			],
+			[
+				"Curr",
+				"CURRENTGAINVALUE"
+			],
+			[
+				"NCOga",
+				"NCOGAINSTATUS"
+			],
+			[
+				"phase",
+				"phaseMargin"
+			],
+			[
+				"closedL",
+				"closedLoopBandWidth"
+			],
+			[
+				"stat",
+				"STATUS"
+			],
+			[
+				"abort",
+				"abortTest"
+			],
+			[
+				"USERP",
+				"USERPROVIDED"
+			],
+			[
+				"curr",
+				"CURRENTFREQ"
+			],
+			[
+				"rec",
+				"RECEIVED_COUNT"
+			],
+			[
+				"freqlist",
+				"freqListCreated"
+			],
+			[
+				"config",
+				"configTMA"
+			],
+			[
+				"scre",
+				"SCREENSHOTSTATUS"
+			],
+			[
+				"sine",
+				"SINESWEEP"
+			],
+			[
+				"datalog",
+				"DATALOGSTATUS"
+			],
+			[
+				"Sine",
+				"SINESWEEP"
+			],
+			[
+				"freq",
+				"FREQUENCYDOMAINPLOTSTATUS"
+			],
+			[
+				"timedomain",
+				"TIMEDOMAINPLOTSTATUS"
+			],
+			[
+				"num",
+				"numTransferFunction"
+			],
+			[
+				"max",
+				"maxAttempts"
+			],
+			[
+				"gainfac",
+				"gainFactorDecrease"
+			],
+			[
+				"Rec",
+				"RECEIVED_COUNT"
+			],
+			[
+				"DataLog",
+				"DATALOGPATH"
+			],
+			[
+				"jitTest",
+				"jitTestAbort"
+			],
+			[
+				"R",
+				"RECEIVED_COUNT"
+			],
+			[
+				"test",
+				"testComments"
+			],
+			[
+				"Timst",
+				"TIMESTAMPERRORCONFIG"
+			],
+			[
+				"jit",
+				"jitValues"
+			],
+			[
+				"TimeDo",
+				"TIMEDOMAIN"
+			],
+			[
+				"length",
+				"length-1"
+			],
+			[
+				"fr",
+				"freqListType"
+			],
+			[
+				"ax",
+				"AXISMAPPING"
+			],
+			[
+				"scal",
+				"scaleType"
+			],
+			[
+				"Axi",
+				"AXISMAPPING"
+			],
+			[
+				"Pl",
+				"PLOTTYPE"
+			],
+			[
+				"cal",
+				"calToPerform"
+			],
+			[
+				"time",
+				"timeElapsed"
+			],
+			[
+				"st",
+				"standardWaitTime"
+			],
+			[
+				"timedom",
+				"TIMEDOMAINTESTABORT"
+			],
+			[
+				"Time",
+				"TIMEDOMAIN"
+			],
+			[
+				"data",
+				"dataPacketSize"
+			],
+			[
+				"TimeDom",
+				"TIMEDOMAINPARAMCONFIG"
+			],
+			[
+				"P",
+				"PLOTTYPE"
+			],
+			[
+				"x",
+				"XSCALE"
+			],
+			[
+				"sin",
+				"SINESWEEP"
+			],
+			[
+				"Ax",
+				"AXISMAPPING"
+			],
+			[
+				"CursorS",
+				"CURSORSTATUS"
+			],
+			[
+				"timeO",
+				"TIMEDOMAIN"
+			],
+			[
+				"wait",
+				"wait_check"
+			],
+			[
+				"lent",
+				"length-1"
+			],
+			[
+				"da",
+				"dataSource"
+			],
+			[
+				"wirte",
+				"WRITETYPE"
+			],
+			[
+				"writ",
+				"WRITEDATA"
+			],
+			[
+				"U",
+				"UART0"
+			],
+			[
+				"com",
+				"comPort0"
+			],
+			[
+				"si",
+				"signalName"
+			],
+			[
+				"cur",
+				"CursorStatus"
+			],
+			[
+				"Cur",
+				"CURSORNAME"
+			],
+			[
+				"Ji",
+				"JITTER"
+			],
+			[
+				"Re",
+				"Received_Count"
+			],
+			[
+				"sta",
+				"standardWait"
+			],
+			[
+				"MySig",
+				"MySignal7"
+			],
+			[
+				"Te",
+				"Test_Manager"
+			],
+			[
+				"Freq",
+				"FreqListType"
+			],
+			[
+				"gain",
+				"gainAdjustTypeVar"
+			],
+			[
+				"Datapack",
+				"DataPacketSize_Bits"
+			],
+			[
+				"Mys",
+				"MySignal1"
+			],
+			[
+				"My",
+				"MySignal1"
+			],
+			[
+				"Mysi",
+				"MySignal2"
+			],
+			[
+				"XPo",
+				"XPosArray"
+			],
+			[
+				"Log",
+				"LoggingTiming"
+			],
+			[
+				"co",
+				"COMMENTS"
+			],
+			[
+				"File",
+				"FILEPREFIX"
+			],
+			[
+				"Flie",
+				"FILEPREFIX"
+			],
+			[
+				"Tes",
+				"TestVal"
+			],
+			[
+				"strt",
+				"STARTTEST"
+			],
+			[
+				"Vis",
+				"VISAINTERFACE"
+			],
+			[
+				"Wr",
+				"WRITEDATA"
+			],
+			[
+				"Con",
+				"ContinuousRead"
+			],
+			[
+				"con",
+				"CONTINUOUSREADABORT"
+			],
+			[
+				"Cont",
+				"ContinuousReadAbort"
+			],
+			[
+				"V",
+				"VISAINTERFACE"
+			],
+			[
+				"Nu",
+				"NumberBytesToRead"
+			],
+			[
+				"Read",
+				"READCONFIGURATION"
+			],
+			[
+				"Vi",
+				"VISAINTERFACE"
+			],
+			[
+				"B",
+				"BAUDRATE"
+			],
+			[
+				"Sto",
+				"StopBits"
+			],
+			[
+				"Flo",
+				"FlowControl"
+			],
+			[
+				"FlowC",
+				"FLOWCONTROL"
+			],
+			[
+				"St",
+				"Stopbits"
+			],
+			[
+				"Par",
+				"PARITY"
+			],
+			[
+				"Da",
+				"DataBits"
+			],
+			[
+				"Data",
+				"DATABITS"
+			],
+			[
+				"Baud",
+				"BaudRate"
+			],
+			[
+				"T",
+				"TimeOut"
+			],
+			[
+				"Conf",
+				"CONFIGURATIONDATA"
+			],
+			[
+				"Fl",
+				"FlowControl"
+			],
+			[
+				"se",
+				"SettlingTime"
+			],
+			[
+				"Set",
+				"SETTLINGTIME_MS"
+			],
+			[
+				"Gain",
+				"GainFactorDecrease"
+			],
+			[
+				"Ini",
+				"IniDistAmp"
+			],
+			[
+				"Auto",
+				"AUTOGAINADJUSTPARAM"
+			],
+			[
+				"De",
+				"DENOMINATORSIGNALNAME"
+			],
+			[
+				"Fun",
+				"FUNCTIONNAME"
+			],
+			[
+				"Trans",
+				"TRANSFTERFUNCTIONPARAMCONFIG"
+			],
+			[
+				"Function",
+				"FunctionName"
+			],
+			[
+				"Fu",
+				"FUNCTIONNAME"
+			],
+			[
+				"Funcion",
+				"FunctionName"
+			],
+			[
+				"Sin",
+				"SINESWEEP"
+			],
+			[
+				"abo",
+				"ABORTTEST"
+			],
+			[
+				"start",
+				"STARTTEST"
+			],
+			[
+				"Tim",
+				"TIMEDOMAIN"
+			],
+			[
+				"JIT",
+				"JITTERTESTABORT"
+			],
+			[
+				"JI",
+				"JITTERTESTSTART"
+			],
+			[
+				"J",
+				"JITTER"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"hex",
+				"HexViewer: Toggle Hex View"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"he",
+				"HexViewer: Toggle Hex View"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"h",
+				"HexViewer: Toggle Hex View"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"apply",
+				"ApplySyntax: Settings"
+			],
+			[
+				"package ",
+				"Package Control: Enable Package"
+			],
+			[
+				"packa",
+				"Package Control: Add Repository"
+			],
+			[
+				"package con",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"line",
+				"Raw Line Edit: Toggle"
+			],
+			[
+				"line edi",
+				"Raw Line Edit: Toggle"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control:install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Dropbox/Arduino/FanController/InterupExample.ino",
+		"/C/Users/ahart/Downloads/untitled0.py",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Arduino.h",
+		"/C/Users/ahart/.ssh/id_ed25519.pub",
+		"/C/Users/ahart/.ssh/id_ed25519",
+		"/C/Users/ahart/Downloads/delete",
+		"/C/CosairDram.txt",
+		"/C/Users/ahart/Desktop/InterupExample/InterupExample.ino",
+		"/C/Users/ahart/AppData/Roaming/Sublime Text 3/.gitignore",
+		"/C/Users/ahart/Downloads/NOOBS_v3_4_0/INSTRUCTIONS-README.txt",
+		"/Z/Lightning/Adam Hartzell/Cygwin Commands_Scripts/InstallRSAkey.sh",
+		"/Z/Lightning/Controls/Powershell Scripts/Last100Pings.ps1",
+		"/Z/.TPDLNA/files.db",
+		"/E/wpa_supplicant.conf",
+		"/E/INSTRUCTIONS-README.txt",
+		"/E/recovery.cmdline",
+		"/D/Dropbox/DELETE/20_24_31.86310.txt",
+		"/E/ssh",
+		"/C/Script/DropboxBackup/DropboxBackup.bat",
+		"/C/Script/SublimeScriptProject.sublime-project",
+		"/H/Id.txt",
+		"/H/Garmin/GPX/Current/Current.gpx",
+		"/H/Garmin/GPX/Track_2020-05-18 102249.gpx",
+		"/C/Users/ahart/AppData/Roaming/Sublime Text 3/README.md",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/Configs/MAIN.ini",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/Configs/Launcher.ini",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/Configs/AI_Analysis2.ini",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/Externals/AI_Analysis/solar.ini",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/Externals/AI_Analysis/_support/Configs/AI_Analysis.ini",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/Configs/AI_Analysis.ini",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/Logs/solar_log_2020-01-20_10-23-18.840238.txt",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/Logs/solar_log_2020-01-20_10-22-31.103747.txt",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/Targets/Step_Res_LVDT_Sim/Configs/Step_Res_LVDT_Sim.ini",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/Targets/Step_Res_LVDT_Sim/solar.ini",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/_support/Logs/solar_log_2020-01-15_15-27-56.586193.txt",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/_support/Logs/solar_log_2020-01-15_15-25-08.274747.txt",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/_support/Logs/solar_log_2020-01-14_17-26-22.887107.txt",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/_support/COSMOS/procedures/TestCase.rb",
+		"/C/SVNRepo/WFIRST/SVN/SensorSide/_support/COSMOS/procedures/helperFunctions.rb",
+		"/C/SVNRepo/ES_Test_2/Ninkasi (Project Level)/PGCE_DIAG/solar.ini",
+		"/C/SVNRepo/WFirst/srv-svn_OLD/trunk/SensorSide/Targets/Step_Res_LVDT_Sim/solar.ini",
+		"/C/SVNRepo/WFirst/srv-svn_OLD/trunk/SensorSide/Targets/Step_Res_LVDT_Sim/Configs/Step_Res_LVDT_Sim.ini",
+		"/C/SVNRepo/WFirst/srv-svn_OLD/trunk/SensorSide/Targets/Step_Res_LVDT_Sim/Configs/MAIN.ini",
+		"/C/SVNRepo/WFirst/srv-svn_OLD/trunk/SensorSide/_support/COSMOS/config/targets/MAIN/cmd_tlm/MAIN_CMD.txt",
+		"/C/SVNRepo/WFirst/srv-svn_OLD/trunk/SensorSide/_support/COSMOS/config/targets/STEP_RES_LVDT_SIM/cmd_tlm/STEP_RES_LVDT_SIM_CMD.txt",
+		"/C/SVNRepo/WFirst/srv-svn_OLD/trunk/SensorSide/_support/COSMOS/config/targets/STEP_RES_LVDT_SIM/cmd_tlm/STEP_RES_LVDT_SIM_TLM.txt",
+		"/C/SVNRepo/WFirst/srv-svn_OLD/trunk/SensorSide/_support/COSMOS/config/targets/MAIN/cmd_tlm_server.txt",
+		"/C/SVNRepo/WFirst/srv-svn_OLD/trunk/SensorSide/_support/COSMOS/config/targets/MAIN/cmd_tlm/MAIN_TLM.txt",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/_support/Cosmos/procedures/FQT_HelperFuncitons.rb",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/_support/Cosmos/config/targets/AI_ANALYSIS/cmd_tlm/AI_ANALYSIS_TLM.txt",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/_support/Cosmos/config/targets/AI_ANALYSIS/cmd_tlm/AI_ANALYSIS_CMD.txt",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/_support/Configs/AI_Analysis.ini",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/solar.ini",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/_support/Cosmos/procedures/FQT_PulseMeasurment.rb",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/_support/Cosmos/procedures/FQT_NIAIFQTCert.rb",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/_support/Cosmos/procedures/TestScript.rb",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/Logs/solar_log_2019-12-12_07-34-12.768733.txt",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/Logs/solar_log_2019-12-12_07-16-12.966052.txt",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/Logs/solar_log_2019-12-23_11-41-01.888362.txt",
+		"/C/Ball/MyData.csv",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/_support/Cosmos/config/tools/script_runner/script_runner.txt",
+		"/C/SVNRepo/ninkasi_box_ste/sdl/03_Product_Eng/FPE_BOX_CSCI_SDF/01_Requirements/See 2551864 RTM under VPX.txt",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/_support/Cosmos/outputs/logs/2019_12_11_16_02_15_tlm.bin",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/_support/Cosmos/outputs/logs/2019_12_11_16_02_14_sr_TestScript_messages.txt",
+		"/C/Ball/Logs/solar_log_2019-12-11_10-55-02.862978.txt",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/_support/Cosmos/lib/test_utilities.rb",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/Configs/AI_Analysis",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/ni_dio/Configs/PXIe6535_DIO1.ini",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/GCE_MC_BRD_STE/Targets/AI/solar.ini",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/ni_dio/Cosmos/config/targets/MAIN/cmd_tlm/MAIN_CMD.txt",
+		"/C/SVNRepo/ES_Test_2/Ninkasi (Project Level)/PCE_Box_STE/Box_Cert/COSMOS_NINKASI/procedures/Schedule - PCE RS422.rb",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/Configs/UARTFileWrite.ini",
+		"/C/Ball/STE_CERT/GCE_MC/solar.ini",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/Configs/MAIN.ini",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/Cosmos/procedures/README.txt",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/AI_Analysis/Cosmos/config/targets/MAIN/cmd_tlm/MAIN_CMD.txt",
+		"/C/SVNRepo/ninkasi_box_ste/FQT_SSW.rb",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/GCE_MC_BRD_STE/Targets/AI/Configs/MAIN.ini",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/GCE_MC_BRD_STE/Targets/AI/Source/SubVIs/Configs/MAIN.ini",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/ni_ai/Cosmos/procedures/TestScript.rb",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/GCE_MC_BRD_STE/Configs/MAIN.ini",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/GCE_MC_BRD_STE/Configs/NI_AI.ini",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/GCE_MC_BRD_STE/Cosmos/config/targets/NI_AI/cmd_tlm/NI_AI_TLM.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/GCE_MC_BRD_STE/Targets/AI/Logs/solar_log_2019-10-29_10-25-39.802990.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/GCE_MC_BRD_STE/Cosmos/config/targets/NI_AI/cmd_tlm/NI_AI_CMD.txt",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/ni_ai/solar.ini",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/ni_ai/Configs/MAIN.ini",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/ni_ai/Cosmos/config/targets/MAIN/cmd_tlm/MAIN_CMD.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/GCE_MC_BRD_STE/Logs/solar_log_2019-10-29_06-46-19.800116.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/GCE_MC_BRD_STE/Logs/solar_log_2019-10-29_06-41-35.125651.txt",
+		"/C/SVNRepo/ES_Test_2/Ninkasi (Project Level)/PCE_Box_STE/STE_Cert/Configs/PCE_THERMAL_SIM.ini",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/ni_dio/solar.ini",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/ni_dio/Configs/MAIN.ini",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/ni_dio/Cosmos/config/tools/script_runner/script_runner.txt",
+		"/C/SVNRepo/ES_Test_2/Ninkasi (Project Level)/PCE_Box_STE/STE_Cert/PCE_Box_STE/Logs/solar_log_2019-10-22_13-33-49.215323.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PCE_BOX_STE/Externals/FPE_BOX_STE/Star-Dundee VISA Driver/LabVIEW_VISA_10th_January_2019/NI-VISA/sdd05/sdd05.inf",
+		"/C/SVNRepo/ES_Test_2/Ninkasi (Project Level)/PCE_Box_STE/STE_Cert/PCE_Box_STE/solar.ini",
+		"/C/Ball/PCE_STE/solar.ini",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/GCE_MC_BRD_STE/solar.ini",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PCE_BOX_STE/FPGA Bitfiles/PCESTE_FPGATarget_StepperSim.lvbitx",
+		"/C/Users/ahartzel/Desktop/VB8012-30BC0A7_2019-10-22_10-43-36.csv",
+		"/C/SVNRepo/SOLAR/svn/LV2018/solar_targets/ni_dio/Cosmos/parser_error_system.txt",
+		"/C/SVNRepo/ES_Test_2/Ninkasi (Project Level)/PCE_Box_STE/STE_Cert/Configs/PCE_MAIN.ini",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/_include/Cosmos/procedures/TestSupport/SSWTestMethods.rb",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/_include/Cosmos/procedures/FQT_HelperFuncitons.rb",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/_include/Cosmos/procedures/TestSupport/JITTestMethods.rb",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/_include/Cosmos/procedures/FQT_JIT.rb",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/solar.ini",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/_include/Cosmos/procedures/FQT_Script.rb",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/_include/Cosmos/procedures/TDD_Test.rb",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/Configs/Utilites.ini",
+		"/C/NewFile/PGCE_DIAG/Configs/Utilites.ini",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/_include/Cosmos/procedures/FQT_SSW.rb",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/2548374 EXE build log.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PCE_BOX_STE/Cosmos/procedures/_DEMO.rb",
+		"/C/SVNRepo/ES_Test_2/Ninkasi (Project Level)/PCE_Box_STE/STE_Cert/COSMOS/procedures/VeristandStart.rb",
+		"/C/SVNRepo/ES_Test_2/Ninkasi (Project Level)/PCE_Box_STE/Box_Cert/COSMOS_NINKASI/procedures/PCE_PERF/Veri_Stand_Utils.rb",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/Logs/solar_log_2019-10-11_14-19-48.317720.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/Logs/solar_log_2019-10-17_10-47-49.919120.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/Logs/solar_log_2019-10-17_10-13-33.796707.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/Logs/solar_log_2019-10-17_10-09-45.696570.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/Logs/solar_log_2019-10-11_14-14-32.992263.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/Logs/solar_log_2019-10-11_14-48-41.312555.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/_include/Cosmos/outputs/logs/2019_10_11_13_05_21_exception.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/_include/Cosmos/outputs/logs/2019_10_11_13_02_46_exception.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/_include/Cosmos/outputs/logs/2019_10_11_11_44_36_exception.txt",
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/_include/Cosmos/procedures/FQT_TDD.rb",
+		"/C/Users/ahartzel/Desktop/states.txt"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 205.0,
+		"where_history":
+		[
+			"C:\\PythonPackages\\spotipy-master\\examples",
+			"C:\\PythonPackages\\spotipy-master",
+			"C:\\PythonPackages\\spotipy-master\\examples"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scope",
+			"secret",
+			"clientID",
+			"161"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 84.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				2
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 155.0
+	},
+	"output.stino_build_panel":
+	{
+		"height": 139.0
+	},
+	"output.stino_panel":
+	{
+		"height": 294.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "YanaPlottingProject.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\SVNRepo\\SOLAR\\SVN\\2018\\AI_Analysis\\NI_AI_SublimeProject.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 2,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 305.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
