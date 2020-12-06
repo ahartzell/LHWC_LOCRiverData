@@ -42,15 +42,15 @@ paramPlotPath = os.path.join(saveDir, folderName, 'Param')
 os.makedirs(os.path.join(saveDir, folderName, 'Param'))
 
 #Open Data files
-with open(r'D:\Dropbox\Yana\YanaPlottingProject\YanaDataManagment\Watershed Data MASTER_AdamVersion_v12.txt') as csvfile:
+with open(r'D:\Dropbox\Yana\YanaPlottingProject\Round13\Reservoir 2019_2020.txt') as csvfile:
     data = csv.reader(csvfile, delimiter = '\t')
     
     for row in data:
-        location.append(row[18])
-        fileTime.append(row[2])
-        parameter.append(row[19])
-        result.append(row[12])
-        unit.append(row[14])
+        location.append(row[1])
+        fileTime.append(row[0])
+        parameter.append(row[3])
+        result.append(row[6])
+        unit.append(row[8])
         source.append(row[5])
     location.pop(0)
     fileTime.pop(0)
