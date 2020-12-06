@@ -4,6 +4,7 @@ Created on Sun Jun 16 01:07:43 2019
 
 @author: Adam
 """
+import numpy as np 
 
 def findLoc(fullList,searchString):
     index = []
@@ -47,6 +48,11 @@ def locAndSourceReplace(replaceWith, locToReplace, sourceToReplace, locationFunc
             locationFunc[i] = replaceWith
     return list(locationFunc)
 
+# function to get unique values 
+def unique(list1): 
+    x = np.array(list1) 
+    print(np.unique(x)) 
+    return np.unique(x)
 
 
             
