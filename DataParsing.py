@@ -74,6 +74,8 @@ with open(fileLocationPath) as csvfile:
     for row in tempLocation:
         searchLocation.append(row[0])
 print('Opened location')
+
+
 #Open paramaters file
 
 fileAnalytePath = filedialog.askopenfilename(title = 'Select Analyte File')
