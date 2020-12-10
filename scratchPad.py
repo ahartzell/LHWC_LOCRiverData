@@ -1,8 +1,11 @@
 
+str = '7.8 (+-3.9)'
 
-
-results = '<0.025  (ND)'
-
-if results[0] == '<':
-    print('Yay')
+if '(+-' in str:
+    print('We found it!')
     
+print(str.split('('))
+
+splitResult = str.split('(')
+
+print(splitResult)
