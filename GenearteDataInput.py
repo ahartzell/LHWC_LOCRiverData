@@ -130,19 +130,12 @@ for i, x in enumerate(result):
     if dataFound == False:
         resultsToPlot.append(99999999.9999999) #append data if its true and set value to tmrl/2
         fileComments.append('No valid data found')
-            
-                
 
-
-       
-    
-    
-        
-  
-  
+#One of the analytes has a '\' in it. Search through all locations and replacae with 
 
 
 
+          
 ####  End code to genterate custom results
 
 with open(r'D:\Dropbox\Yana\YanaPlottingProject\Round13\DataStore.txt', 'w') as csvfile:

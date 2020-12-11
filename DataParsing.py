@@ -42,21 +42,22 @@ paramPlotPath = os.path.join(saveDir, folderName, 'Param')
 os.makedirs(os.path.join(saveDir, folderName, 'Param'))
 
 #Open Data files
-with open(r'D:\Dropbox\Yana\YanaPlottingProject\Round13\Reservoir 2019_2020.txt') as csvfile:
+with open(r'D:\Dropbox\Yana\YanaPlottingProject\Round13\DataStore.txt') as csvfile:
     data = csv.reader(csvfile, delimiter = '\t')
     
     for row in data:
         location.append(row[1])
         fileTime.append(row[0])
-        parameter.append(row[3])
-        result.append(row[6])
-        unit.append(row[8])
-        source.append(row[5])
+        parameter.append(row[2])
+        result.append(row[4])
+        unit.append(row[5])
+        source.append(row[6])
     location.pop(0)
     fileTime.pop(0)
     parameter.pop(0)
     result.pop(0)
     unit.pop(0)
+    source.pop(0)
 print('Data file has been opened')
 #Open Location file
 searchLocation = []
@@ -65,8 +66,8 @@ searchLocation = []
 root = tk.Tk()
 root.withdraw()
 
-fileLocationPath = filedialog.askopenfilename(title = 'Select Location File')
-#fileLocationPath = r'D:\Dropbox\Yana\YanaPlottingProject\RoundTen\LocationExampleSimple.txt'
+#fileLocationPath = filedialog.askopenfilename(title = 'Select Location File')
+fileLocationPath = r'D:\Dropbox\Yana\YanaPlottingProject\Round13\13_Location.txt'
 
 with open(fileLocationPath) as csvfile:
     tempLocation = csv.reader(csvfile, delimiter ='\t')
@@ -78,8 +79,8 @@ print('Opened location')
 
 #Open paramaters file
 
-fileAnalytePath = filedialog.askopenfilename(title = 'Select Analyte File')
-#fileAnalytePath = r'D:\Dropbox\Yana\YanaPlottingProject\RoundTen\AnalyteExampleSimple.txt'
+#fileAnalytePath = filedialog.askopenfilename(title = 'Select Analyte File')
+fileAnalytePath = r'D:\Dropbox\Yana\YanaPlottingProject\Round13\13_Analyte.txt'
 searchParmeters = []
 with open(fileAnalytePath) as csvfile:
     tempParams = csv.reader(csvfile, delimiter ='\t')
