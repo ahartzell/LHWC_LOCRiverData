@@ -30,7 +30,7 @@ parameter = []
 result = []
 unit = []
 source = []
-saveDir = r'C:\Data'
+saveDir = r'D:\Dropbox\Yana\YanaPlottingProject\Round13\Data'
 
 folderName = 'Results' + strftime("%Y-%m-%d %H_%M_%S", gmtime())
 pathToMake = os.path.join(saveDir, folderName)
@@ -299,7 +299,7 @@ if runTimePlot == 'y':
                     #figure = plt.xlim(['1/1/2008', '1/1/2019'])
                             #This was waht is working
                     ax = plt.gca()
-                    ax.set_xlim(['1/1/2008', '1/1/2019'])
+      #broken              #ax.set_xlim(['5/29/2019', '10/20/2020'])
                     plotResultsFloat = [float(i) for i in plotResults]
                     if max(plotResultsFloat) >= 999:
                         ax.get_yaxis().set_major_formatter(mpl.ticker.FuncFormatter(lambda x, p: format(int(x), ','))) #add a commma every third digit

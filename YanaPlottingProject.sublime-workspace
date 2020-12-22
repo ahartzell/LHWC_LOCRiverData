@@ -520,38 +520,19 @@
 	"buffers":
 	[
 		{
-			"contents": "Spam Spam2 Spam Spam2 Spam Spam2 Spam Spam2 Spam Spam2 |Baked Beans|\nSpam |Lovely Spam| |Wonderful Spam|\n",
-			"file": "eggs.csv",
-			"file_size": 107,
-			"file_write_time": 132517043212201910,
-			"settings":
-			{
-				"buffer_size": 105,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "/D/Dropbox/Yana/YanaPlottingProject/Round13/13_Location.txt",
 			"settings":
 			{
-				"buffer_size": 1393,
+				"buffer_size": 288,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Generally, use the results column, but if it’s empty, then use these rules:\n\nAs for the rules, I added a couple that should make the final rule obsolete, but let me know if you are coming up with results to ignore:\n\n  IF t-Result is a simple numeric value, then use that value for Result.\n  IF t-Result is >2419.6, then use 2420 for Result (occurred only in E-Coli).\n  IF t-Result begins with <, then use one-half of the t-MRL column for the Result.\n  IF t-Result is numeric followed by “(+-(numeric value))”, then use the numeric result and ignore the value within the parentheses.\n  IF t-Result  is ND, then use one-half the tMRL (if tMRL is blank, then use zero)\n  IF t-Result is anything else, ignore the entry (generate a list of entries that are to be ignored).\n\n",
-			"settings":
-			{
-				"buffer_size": 769,
-				"line_ending": "Windows",
-				"name": "Generally, use the results column, but if it’s emp"
 			}
 		},
 		{
 			"file": "/D/Dropbox/Yana/YanaPlottingProject/Round13/DataStore.txt",
 			"settings":
 			{
-				"buffer_size": 330535,
+				"buffer_size": 582726,
 				"encoding": "Western (Windows 1252)",
 				"line_ending": "Windows"
 			}
@@ -685,13 +666,13 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Dropbox/Yana/YanaPlottingProject/_LHWC_LOCRiverData",
 		"/D/Dropbox/Yana/YanaPlottingProject/Round13"
 	],
 	"file_history":
 	[
-		"/C/Program Files/Core Temp/Readme.txt",
+		"/D/Dropbox/Yana/YanaPlottingProject/Round13/Reservoir 2019_2020.txt",
 		"/D/Dropbox/Yana/YanaPlottingProject/Round13/DataStore.txt",
+		"/C/Program Files/Core Temp/Readme.txt",
 		"/C/Users/ahart/AppData/Local/Temp/kite_tutorial.py",
 		"/D/Dropbox/Yana/YanaPlottingProject/_LHWC_LOCRiverData/tmpd2f3fwak",
 		"/D/Dropbox/Arduino/FanController/InterupExample.ino",
@@ -816,8 +797,7 @@
 		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/Logs/solar_log_2019-10-17_10-13-33.796707.txt",
 		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/Logs/solar_log_2019-10-17_10-09-45.696570.txt",
 		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/Logs/solar_log_2019-10-11_14-14-32.992263.txt",
-		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/Logs/solar_log_2019-10-11_14-48-41.312555.txt",
-		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/_include/Cosmos/outputs/logs/2019_10_11_13_05_21_exception.txt"
+		"/C/SVNRepo/ninkasi_box_ste/srv-svn/trunk/PGCE_DIAG_STE/Logs/solar_log_2019-10-11_14-48-41.312555.txt"
 	],
 	"find":
 	{
@@ -838,6 +818,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"226",
+			"\\",
 			"scope",
 			"secret",
 			"clientID",
@@ -864,113 +846,54 @@
 			[
 				{
 					"buffer": 0,
-					"file": "eggs.csv",
-					"semi_transient": true,
+					"file": "/D/Dropbox/Yana/YanaPlottingProject/Round13/13_Location.txt",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 105,
+						"buffer_size": 288,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								105,
-								105
+								288,
+								288
 							]
 						],
 						"settings":
 						{
 							"apply_syntax_touched": true,
-							"syntax": "Packages/Advanced CSV/AdvancedCSV.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 1,
-					"file": "/D/Dropbox/Yana/YanaPlottingProject/Round13/13_Location.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1393,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								307,
-								307
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 769,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								769,
-								769
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_name": "Generally, use the results column, but if it’s emp",
-							"default_dir": "D:\\Dropbox\\Yana\\YanaPlottingProject\\Round13",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "/D/Dropbox/Yana/YanaPlottingProject/Round13/DataStore.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 330535,
+						"buffer_size": 582726,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1478,
-								1478
+								0,
+								0
 							]
 						],
 						"settings":
@@ -982,7 +905,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1027,7 +950,7 @@
 		"cols":
 		[
 			0.0,
-			0.030959752322,
+			0.431597710855,
 			1.0
 		],
 		"rows":

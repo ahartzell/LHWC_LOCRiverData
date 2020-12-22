@@ -65,9 +65,10 @@ with open(r'D:\Dropbox\Yana\YanaPlottingProject\Round13\Reservoir 2019_2020.txt'
     unit.pop(0)
     t_result.pop(0)
     t_mrl.pop(0)
+    source.pop(0)
 print('Data file has been opened')
 
- 
+b = set(location)
 
 ####  Place code to generate information for resultsToPlot here.  This will is where things will be different every time.    ######
 
@@ -131,7 +132,12 @@ for i, x in enumerate(result):
         resultsToPlot.append(99999999.9999999) #append data if its true and set value to tmrl/2
         fileComments.append('No valid data found')
 
-#One of the analytes has a '\' in it. Search through all locations and replacae with 
+# #The time stamp has date and time.  Remove the time as we only care about the date 
+fileDate = []
+for i in fileTime:
+    getDate = i.split(' ')
+    fileDate.append(getDate[0])
+    
 
 
 
@@ -140,10 +146,10 @@ for i, x in enumerate(result):
 
 with open(r'D:\Dropbox\Yana\YanaPlottingProject\Round13\DataStore.txt', 'w') as csvfile:
     dataStoreFile = csv.writer(csvfile, delimiter='\t', lineterminator="\n")
-    dataStoreFile.writerow(['Time','Location','Analyte','Result','ResultsToPlot','Unit','Source','FileComments'])
+    dataStoreFile.writerow(['Date','Location','Analyte','Result','ResultsToPlot','Unit','Source','tResult','tMRL','FileComments'])
     # for i in location.length-1  #Ruby Shit
     for i, locValue in enumerate(location):
-        dataStoreFile.writerow([fileTime[i],location[i],parameter[i],result[i],resultsToPlot[i],unit[i],source[i],fileComments[i]])
+        dataStoreFile.writerow([fileDate[i],location[i],parameter[i],result[i],resultsToPlot[i],unit[i],source[i],t_result[i],t_mrl[i],fileComments[i]])
 
         
 
