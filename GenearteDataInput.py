@@ -31,7 +31,7 @@ result = []
 t_mrl = []
 t_result = []
 unit = []
-source = []
+tMDL = []
 fileComments = []
 resultsToPlot = []
 saveDir = r'C:\Data'
@@ -50,6 +50,7 @@ with open(r'D:\Dropbox\Yana\YanaPlottingProject\Round13\Reservoir 2019_2020.txt'
     data = csv.reader(csvfile, delimiter = '\t')
     
     for row in data:
+        #2019 Data
         location.append(row[1])
         fileTime.append(row[0])
         parameter.append(row[3])
@@ -57,7 +58,17 @@ with open(r'D:\Dropbox\Yana\YanaPlottingProject\Round13\Reservoir 2019_2020.txt'
         t_result.append(row[7])
         t_mrl.append(row[4])
         unit.append(row[8])
-        source.append(row[5])
+        tMDL.append(row[5])
+        
+        # #2014-2018 Data
+        # location.append(row[4])
+        # fileTime.append(row[0])
+        # parameter.append(row[8])
+        # result.append(row[11])
+        # t_result.append(row[12])
+        # t_mrl.append(row[9])
+        # unit.append(row[13])
+        # tMDL.append(row[10])
     location.pop(0)
     fileTime.pop(0)
     parameter.pop(0)
@@ -65,10 +76,12 @@ with open(r'D:\Dropbox\Yana\YanaPlottingProject\Round13\Reservoir 2019_2020.txt'
     unit.pop(0)
     t_result.pop(0)
     t_mrl.pop(0)
-    source.pop(0)
+    tMDL.pop(0)
 print('Data file has been opened')
 
-b = set(location)
+uniqueLocation = set(location)
+uniqueAnalyte = set(parameter)
+
 
 ####  Place code to generate information for resultsToPlot here.  This will is where things will be different every time.    ######
 
@@ -108,9 +121,15 @@ for i, x in enumerate(result):
             #RULE 3
                 t_results_i = t_result[i]
                 if t_results_i[0] == '<':  #check if the first charicter is <  
-                    resultsToPlot.append(float(t_mrl[i])/2) #append data if its true and set value to tmrl/2
-                    dataFound = True
-                    fileComments.append('Value determined from rule 3')
+                    try:
+                        resultsToPlot.append(float(t_mrl[i])/2) #append data if its true and set value to tmrl/2
+                        dataFound = True
+                        fileComments.append('Value determined from rule 3')
+                    except:
+                        if not t_mrl:
+                            resultsToPlot.append(0.0) #append data if its true and set value to tmrl/2
+                            dataFound = True
+                            fileComments.append('tMRL is blank.  Used zero.')
             #RULE 4
                 if '(+-' in t_results_i:  #check to see if the string contains the charicters '(+-'
                     splitResult = t_results_i.split('(')
@@ -146,10 +165,10 @@ for i in fileTime:
 
 with open(r'D:\Dropbox\Yana\YanaPlottingProject\Round13\DataStore.txt', 'w') as csvfile:
     dataStoreFile = csv.writer(csvfile, delimiter='\t', lineterminator="\n")
-    dataStoreFile.writerow(['Date','Location','Analyte','Result','ResultsToPlot','Unit','Source','tResult','tMRL','FileComments'])
+    dataStoreFile.writerow(['Date','Location','Analyte','Result','ResultsToPlot','Unit','tResult','tMRL','FileComments'])
     # for i in location.length-1  #Ruby Shit
     for i, locValue in enumerate(location):
-        dataStoreFile.writerow([fileDate[i],location[i],parameter[i],result[i],resultsToPlot[i],unit[i],source[i],t_result[i],t_mrl[i],fileComments[i]])
+        dataStoreFile.writerow([fileDate[i],location[i],parameter[i],result[i],resultsToPlot[i],unit[i],t_result[i],t_mrl[i],fileComments[i]])
 
         
 

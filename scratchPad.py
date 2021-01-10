@@ -1,1 +1,3 @@
-fileTime[2].split(' ')
+t_mrl = '' 
+if not t_mrl:
+    print('poop')

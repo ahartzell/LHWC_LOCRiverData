@@ -66,8 +66,8 @@ searchLocation = []
 root = tk.Tk()
 root.withdraw()
 
-#fileLocationPath = filedialog.askopenfilename(title = 'Select Location File')
-fileLocationPath = r'D:\Dropbox\Yana\YanaPlottingProject\Round13\13_Location.txt'
+fileLocationPath = filedialog.askopenfilename(title = 'Select Location File')
+#fileLocationPath = r'D:\Dropbox\Yana\YanaPlottingProject\Round13\13_Location.txt'
 
 with open(fileLocationPath) as csvfile:
     tempLocation = csv.reader(csvfile, delimiter ='\t')
@@ -79,8 +79,8 @@ print('Opened location')
 
 #Open paramaters file
 
-#fileAnalytePath = filedialog.askopenfilename(title = 'Select Analyte File')
-fileAnalytePath = r'D:\Dropbox\Yana\YanaPlottingProject\Round13\13_Analyte.txt'
+fileAnalytePath = filedialog.askopenfilename(title = 'Select Analyte File')
+#fileAnalytePath = r'D:\Dropbox\Yana\YanaPlottingProject\Round13\13_Analyte.txt'
 searchParmeters = []
 with open(fileAnalytePath) as csvfile:
     tempParams = csv.reader(csvfile, delimiter ='\t')
@@ -200,7 +200,7 @@ if runBoxPlot == 'y':
            ax = fig.add_subplot(111) 
            bp = ax.boxplot(resultsToPlot)
            ax.set_xticklabels(locToPlot)
-           plt.gcf().autofmt_xdate(rotation=90)
+           plt.gcf().autofmt_xdate(rotation=30)
            plt.xlabel('Sampling Location')
            plt.ylabel(unitSearch[0])
            plt.title(curParam,fontweight="bold")
