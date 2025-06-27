@@ -12,13 +12,11 @@ import matplotlib as mpl
 import os 
 import pathlib
 import math
-import time
 import datetime
 import numpy as np
 import tkinter as tk
 from tkinter import filedialog
 from time import gmtime, strftime
-import time
 
 clear = lambda: os.system('cls')
 clear()
@@ -30,7 +28,7 @@ parameter = []
 result = []
 unit = []
 source = []
-saveDir = r'D:\Dropbox\Yana\YanaPlottingProject\Round13\Data'
+saveDir = r'X:\YanaPlottingProject\Round14\Data'
 
 folderName = 'Results' + strftime("%Y-%m-%d %H_%M_%S", gmtime())
 pathToMake = os.path.join(saveDir, folderName)
@@ -42,7 +40,8 @@ paramPlotPath = os.path.join(saveDir, folderName, 'Param')
 os.makedirs(os.path.join(saveDir, folderName, 'Param'))
 
 #Open Data files
-with open(r'D:\Dropbox\Yana\YanaPlottingProject\Round13\DataStore.txt') as csvfile:
+with open(r'X:\YanaPlottingProject\Round14\DataStore.txt') as csvfile:
+
     data = csv.reader(csvfile, delimiter = '\t')
     
     for row in data:
